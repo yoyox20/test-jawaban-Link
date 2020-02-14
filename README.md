@@ -1,19 +1,14 @@
 # test-jawaban-Link
 
 Jawaban Nomer 1
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
 Created on Fri Feb 14 16:05:46 2020
 @author: yoyox
-"""
 from random import uniform 
 for i in range(100):
     bil = uniform(1, 100)
     print(bil)
 
-=======================================================================end
+======================================================end
 Jawaban Nomer 2
 #menggunakan file .htaccsess
 RewriteEngine on
@@ -21,11 +16,11 @@ RewriteRule ^(.*)\.txt$ $1.php [nc]
 #menggunakan perintah linux 
 mv -v /var/www/html/*.php /var/www/html/*.txt
 
-======================================================================end
+======================================================end
 Jawaban Nomer 3
 %{TIMESTAMP_ISO8601:Tanggal} %{NUMBER:SystemId} {%{GREEDYDATA}: %{channelSessionId:}, %{GREEDYDATA}: %{komentar}, %{GREEDYDATA}: %{OriginatorConversationID}, %{GREEDYDATA}: %{Msisdn}, %{GREEDYDATA}: %{CommandId}}
 
-======================================================================end
+=====================================================end
 
 Jawaban Nomer 4
 {%{UUID}:%{Data.uuid},%{QS}:999,%{NUMBER}:%{Data.rt},%{NUMBER}:%{PORT},%{IP}:%{IP},%{GREEDYDATA}:%{Data.appli},%{GREEDYDATA}:%{versi },%{GREEDYDATA}:%{Data.path}}
